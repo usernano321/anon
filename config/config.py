@@ -24,7 +24,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀsᴛʀᴏ ダ ᴍᴜsɪᴄ​")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "1356469075").split())
@@ -43,9 +43,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/DevilsHeavenMF")
+    "SUPPORT_CHANNEL", "https://t.me/AstroMusikk")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
+    "SUPPORT_GROUP", "https://t.me/AstroMusikk")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -73,7 +73,7 @@ SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "50"))
 
 CLEANMODE_DELETE_MINS = int(
-    getenv("CLEANMODE_MINS", "7")
+    getenv("CLEANMODE_MINS", "5")
 )
 
 TG_AUDIO_FILESIZE_LIMIT = int(
@@ -107,7 +107,7 @@ START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/56d1760224589ee
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/56d1760224589ee370186.jpg",
+    "https://telegra.ph/file/ecff557eaec56979e7b80.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
