@@ -81,7 +81,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(
 )
 
 TG_VIDEO_FILESIZE_LIMIT = int(
-    getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824")
+    getenv("TG_VIDEO_FILESIZE_LIMIT", "5678910111")
 )
 # https://www.gbmb.org/mb-to-bytes
 
