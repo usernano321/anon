@@ -263,7 +263,7 @@ def slider_markup(
         ],
         [
             InlineKeyboardButton(
-                text="⫷",
+                text="☚",
                 callback_data=f"slider B|{query_type}|{query}|{user_id}|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
@@ -271,7 +271,7 @@ def slider_markup(
                 callback_data=f"forceclose {query}|{user_id}",
             ),
             InlineKeyboardButton(
-                text="⫸",
+                text="☛",
                 callback_data=f"slider F|{query_type}|{query}|{user_id}|{channel}|{fplay}",
             ),
         ],
