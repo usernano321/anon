@@ -21,7 +21,7 @@ from strings import get_command, get_string
 from AnonX import Telegram, YouTube, app
 from AnonX.misc import SUDOERS
 from AnonX.plugins.Robot.playlist import del_plist_msg
-from AnonX.plugins.sudo.sudoers import sudoers_list
+from AnonX.plugins.Robot.sudoers import sudoers_list
 from AnonX.utils.database import (add_served_chat,
                                        add_served_user,
                                        blacklisted_chats,
